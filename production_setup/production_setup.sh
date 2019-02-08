@@ -10,8 +10,6 @@ pip3 install virtualenv
 
 cd ~
 
-git clone https://github.com/brettvanderwerff/Portfolio-Website
-
 cd Portfolio-Website
 
 virtualenv env
