@@ -7,7 +7,7 @@ User=brett
 Group=www-data
 WorkingDirectory=/home/brett/Portfolio-Website
 Environment="PATH=/home/brett/Portfolio-Website/env/bin"
-ExecStart=/home/brett/Portfolio-Website/env/bin/gunicorn --workers 3 --bind unix:Portfolio-Website.sock -m 007 Portfolio-Website.app:app
+ExecStart=/home/brett/Portfolio-Website/env/bin/gunicorn --workers 3 --bind unix:Portfolio-Website.sock -m 007 app:app
 
 [Install]
 WantedBy=multi-user.target
