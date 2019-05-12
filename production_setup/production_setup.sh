@@ -8,6 +8,16 @@
 
 # su brett
 
+# cd ~
+
+# git clone https://github.com/brettvanderwerff/Portfolio-Website
+
+# cd Portfolio-Website
+
+# cd production_setup
+
+# sudo production_setup.sh
+
 apt-get update
 
 apt-get install python3-pip python3-dev nginx
