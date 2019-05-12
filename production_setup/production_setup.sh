@@ -16,7 +16,7 @@
 
 # cd production_setup
 
-# sudo production_setup.sh
+# sudo bash production_setup.sh
 
 apt-get update
 
